@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Parikh</title>
+</head>
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="default.css">
+
+<link id="theme-style"rel="stylesheet" href="" type="text/css">
+<body>
+    <section class="s1">
+        <div class="main-container">
+            <div class="greeting-wrapper">
+                <h1>Hi, I am Dev Parikh</h1>
+            </div>
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                        <div id="dot1" class="browser-dot"></div>
+                        <div id="dot2" class="browser-dot"></div>
+                        <div id="dot3" class="browser-dot"></div>
+                    </div>
+                    <ul id="navigation">
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="left-column">
+                    <img id="profile" src="images/profile1.jpeg">
+                    <h5 style="text-align: center; line-height: 0;">Personalize theme</h5>
+                    <div id="theme-options-wrapper">
+                            <div data-mode="light" id="light-mode" class="theme-dot"></div>
+                            <div data-mode="blue" id="blue-mode" class="theme-dot"></div>
+                            <div data-mode="green" id="green-mode" class="theme-dot"></div>
+                            <div data-mode="purple" id="purple-mode" class="theme-dot"></div>
+                    </div>
+                    <p id="settings-note">*Theme settings will be saved for <br />
+                    your next visit.</p>
+                </div>
+                <div class="right-column">
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <div id="corner-tl" class="corner"></div>
+                            <div id="corner-tr" class="corner"></div>
+                            <h3>What I Do?</h3>
+                            <p>I am a Computer Science Enthusiast who likes to build things.</p>
+                            <div id="corner-bl" class="corner"></div>
+                            <div id="corner-br" class="corner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+            <h3>More about me</h3>
+            <p>I am a first year CS student</p>
+            <p>I’m currently learning Javascript and C++.</p>
+            <p>I am interested in Web Development, ML, Blockchain, Competitive programming
+             and Quantum Computing.</p>
+            <p>Outside of programming I like mathematics, physics, history and psychology.</p>
+            <p>I like to trek, meet new people and play lawn tennis and badminton.</p>
+            <hr />
+            
+            <h3>I know more about:</h3>
+            <div id="skills">
+                 <ul>
+                     <li>C/C++</li>
+                     <li>Python</li>
+                     <li>HTML/CSS</li>
+                     <li>Javascript</li>
+                     <li>Java</li>
+                 </ul>
+            </div>
+            <h3>Find me on:</h3>
+            <ul id="social">
+                <li><a target="_blank" href="https://twitter.com/devparikh142003">Twitter</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/devparikh142003/">Instagram</a></li>
+                <li><a target="_blank" href="https://www.linkedin.com/in/dev-parikh-4553b8217/">Linkedin</a></li>
+                <li><a target="_blank" href="https://www.github.com/Dev79844">Github</a></li>
+            </ul>
+
+        </div>
+    </section>
+
+    <section class="s1">
+        <div class="main-container">
+            <h3 style="text-align: center;">Some of my past projects:</h3>
+            <div class="post-wrapper">
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/Airdrop using Solana web3.js.png" alt="airdrop">
+                        <div class="post-preview">
+                            <h6 class="post-title">Airdrop using Solana Web3.js</h6>
+                            <p class="post-intro">Built an airdrop program on Solana's devnet using web3.js library</p>
+                            <a  target="_blank" href="https://github.com/Dev79844/airdrop-using-solana-web3.js">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="post">
+                        <img class="thumbnail" src="images/Filterable-image-website.png" alt="airdrop">
+                        <div class="post-preview">
+                            <h6 class="post-title">Filterable image website</h6>
+                            <p class="post-intro">Built a website where you can search images using keywords.</p>
+                            <a target="_blank" href="https://github.com/Dev79844/filterable-image-wesite">Read more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="s2">
+        <div class="main-container">
+            <h3 style="text-align: center;">Get In touch</h3>
+            <form id="contact-form">
+                <label>Name</label>
+                <input type="text" class="input-field" name="name" required>
+
+                <label>Subject</label>
+                <input type="text" class="input-field" name="subject">
+
+                <label>Email</label>
+                <input type="email" class="input-field" name="email" required>
+
+                <label>Message</label>
+                <textarea name="message" class="input-field"></textarea>
+
+
+
+                <input id="submit-btn" type="submit" value="send">
+            </form>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
